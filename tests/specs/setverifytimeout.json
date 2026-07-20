@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/setverifytimeout",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Set verification timeout (minutes)"
+            }
+          }
+        ],
+        "send": {
+          "text": "/setverifytimeout"
+        }
+      }
+    ]
+  }
+]
